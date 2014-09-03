@@ -37,7 +37,7 @@ toJSONArray2 <- function(obj, json = TRUE, names = TRUE, ...){
   })
   if (json){
     #return(toJSON(value, .withNames = F, ...))
-    return(toJSON(value)
+    return(toJSON(value))
   } else {
     names(value) <- NULL;
     return(value)
